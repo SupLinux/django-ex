@@ -84,6 +84,18 @@ WSGI_APPLICATION = 'wsgi.application'
 
 from . import database
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'xyao-test',
+#         'USER': "test",
+#         'PASSWORD': "test",
+#         'HOST': 'postgresql',
+#         'PORT': '5432',
+#     }
+# }
+
+
 DATABASES = {
     'default': database.config()
 }
