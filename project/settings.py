@@ -87,9 +87,9 @@ from . import database
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'xyao-test',
-#         'USER': "test",
-#         'PASSWORD': "test",
+#         'NAME': 'pelctest',
+#         'USER': "psql",
+#         'PASSWORD': "redhat",
 #         'HOST': 'postgresql',
 #         'PORT': '5432',
 #     }
